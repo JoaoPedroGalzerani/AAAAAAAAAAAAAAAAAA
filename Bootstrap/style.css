@@ -1,0 +1,24 @@
+.pesq
+{
+border-radius: 50px;
+width: 1000px;
+}
+@media screen and (min-width :567px) 
+{
+    .slides
+{
+display: flex;
+} 
+}
+
+@media screen and (maxwidth :567px) 
+{
+    .card:not(:first-child){
+        display: none;
+    }
+}
+.card 
+{
+    margin: 10px;
+    width: cal(100%/3);
+}
